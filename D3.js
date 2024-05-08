@@ -130,7 +130,7 @@ const femaleCharacters = [];
 for (let i = 0; i < starWarsCharacters.length; i++) 
   {
   if (starWarsCharacters[i].gender === "female")
-    
+
     femaleCharacters.push(starWarsCharacters[i]);
 }
 
@@ -209,8 +209,6 @@ console.log("massa totale", crewMass)
   Una volta fatto, modifica la massa di qualche elemento dell'equipaggio e vedi se riesci ad ottenere un messaggio diverso.
 
 */
-
-if (crewMass < 500)[]
 
 /* ESERCIZIO 8
   Usa un for loop per cambiare il valore della proprietà "gender" di alcuni personaggi dal valore "n/a" a "robot" (Tip: puoi effettuare la riassegnazione del valore corrispondente o creare un nuovo array)
